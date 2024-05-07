@@ -118,8 +118,8 @@ author:
   email            :
   links:
     - label: "Email"
-      icon: "mailto:imhyuno@cau.ac.kr"
-      # url: "mailto:your.name@email.com"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:imhyuno@cau.ac.kr"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -130,8 +130,8 @@ author:
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
-      icon: "https://github.com/JDVVd"
-      # url: "https://github.com/"
+      icon: "ab fa-fw fa-github"
+      # url: "https://github.com/JDVVd"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
