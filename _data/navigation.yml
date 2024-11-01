@@ -13,7 +13,7 @@ main:
 sidebar-category:
   - title: "category"
     children:
-      - title: "PaperReview"
+      - title: "Paper Review"
         url: "/PaperReview"
       - title: "cs231n"
         url:  "/cs231n"
