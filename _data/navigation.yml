@@ -11,11 +11,13 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 sidebar-category:
-  - title: "category"
+  - title: "DeepLearning"
     children:
       - title: "Paper Review"
         url: "/PaperReview"
+        caregory: "paperreview"
       - title: "cs231n"
         url:  "/cs231n"
+        caregory: "cs231n"
       #- title: "카테고리C"
       #  url:  "/CategoryC"
