@@ -13,8 +13,8 @@ main:
 sidebar-category:
   - title: "category"
     children:
-      #- title: "블로그"
-      #  url: "/blog"
+      - title: "PaperReview"
+        url: "/PaperReview"
       - title: "cs231n"
         url:  "/cs231n"
       #- title: "카테고리C"
