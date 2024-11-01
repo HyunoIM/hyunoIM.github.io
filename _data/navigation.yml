@@ -14,7 +14,7 @@ sidebar-category:
   - title: "DeepLearning"
     children:
       - title: "Paper Review"
-        url: "/PaperReview"
+        url: "/paperreview"
         caregory: "paperreview"
       - title: "cs231n"
         url:  "/cs231n"
