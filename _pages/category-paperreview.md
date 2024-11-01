@@ -2,6 +2,8 @@
 title: "PaperReview"
 layout: archive
 permalink: /PaperReview
+sidebar:
+nav: "docs"
 ---
 
 
