@@ -3,6 +3,7 @@ title: "cs231n"
 layout: archive
 permalink: /cs231n
 author_profile: true
+sidebar_main: true
 sidebar:
   nav: "docs"
 ---
