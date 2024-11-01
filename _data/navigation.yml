@@ -13,9 +13,9 @@ main:
 sidebar-category:
   - title: "category"
     children:
-      - title: "블로그"
-        url: "/blog"
+      #- title: "블로그"
+      #  url: "/blog"
       - title: "cs231n"
-        url:  "/CategoryB"
-      - title: "카테고리C"
-        url:  "/CategoryC"
+        url:  "/cs231n"
+      #- title: "카테고리C"
+      #  url:  "/CategoryC"
