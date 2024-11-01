@@ -112,7 +112,7 @@ analytics:
 # Site Author
 author:
   name             : "HyunO Im"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/icon.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Hello"
   location         : "Seoul, Republic of Korea"
   email            :
