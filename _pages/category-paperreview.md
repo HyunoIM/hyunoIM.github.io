@@ -1,7 +1,7 @@
 ---
 title: "PaperReview"
 layout: archive
-permalink: /MLpaperreview
+permalink: /paperreview
 author_profile: true
 sidebar:
   nav: "docs"
