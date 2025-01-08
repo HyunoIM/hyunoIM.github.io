@@ -11,11 +11,19 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 sidebar-category:
-  - title: "DeepLearning"
+  - title: "Machine Learning"
+    children:
+      - title: "Paper Review"
+          url: "/paperreview"
+          caregory: "paperreview"
+  - title: "Deep Learning"
     children:
       - title: "Paper Review"
         url: "/paperreview"
         caregory: "paperreview"
+      - title: "Pytorch"
+        url: "/pytorch"
+        caregory: "pytorch"  
       - title: "cs231n"
         url:  "/cs231n"
         caregory: "cs231n"
