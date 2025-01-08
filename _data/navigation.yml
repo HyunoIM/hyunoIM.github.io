@@ -11,14 +11,13 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 sidebar-category:
-  - title: "Machine Learning"
   - title: "Deep Learning"
     children:
       - title: "paperreview"
         url: "/paperreview"
       - title: "study"
         url: "/study"
-      - title: "Pytorch"
+      - title: "pytorch"
         url: "/pytorch"
       - title: "cs231n"
         url:  "/cs231n"
