@@ -14,10 +14,10 @@ sidebar-category:
   - title: "Machine Learning"
   - title: "Deep Learning"
     children:
-      - title: "Paper Review"
+      - title: "paperreview"
         url: "/paperreview"
         category: "paperreview"
-      - title: "Study"
+      - title: "study"
         url: "/study"
         category: "study"
       - title: "Pytorch"
