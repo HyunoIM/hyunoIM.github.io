@@ -12,15 +12,11 @@ main:
   #   url: /sitemap/
 sidebar-category:
   - title: "Machine Learning"
-    children:
-      - title: "Paper Review"
-        url: "/MLpaperreview"
-        category: "MLpaperreview"
   - title: "Deep Learning"
     children:
       - title: "Paper Review"
-        url: "/DLpaperreview"
-        category: "DLpaperreview"
+        url: "/paperreview"
+        category: "paperreview"
       - title: "Study"
         url: "/study"
         category: "study"
