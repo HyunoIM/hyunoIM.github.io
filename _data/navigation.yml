@@ -14,8 +14,8 @@ sidebar-category:
   - title: "Machine Learning"
     children:
       - title: "Paper Review"
-          url: "/paperreview"
-          category: "paperreview"
+        url: "/paperreview"
+        category: "paperreview"
   - title: "Deep Learning"
     children:
       - title: "Paper Review"
