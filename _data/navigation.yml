@@ -11,6 +11,7 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 sidebar-category:
+  - title: "Machine Learning"
   - title: "Deep Learning"
     children:
       - title: "paperreview"
