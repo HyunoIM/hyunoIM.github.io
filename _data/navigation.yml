@@ -15,7 +15,7 @@ sidebar-category:
     children:
       - title: "paperreview"
         url: "/paperreview"
-      - title: "study"
+      - title: "study"
         url: "/study"
       - title: "pytorch"
         url: "/pytorch"
