@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "[paper] Attention is all you need (Transformer)"
-permalink: paper/
+permalink: paper/transformer
 toc: true
 toc_sticky: true
 categories: 
