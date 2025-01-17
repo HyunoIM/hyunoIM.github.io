@@ -245,5 +245,5 @@ $$
 
 [VASWANI, A. Attention is all you need. *Advances in Neural Information Processing Systems*, 2017](https://doi.org/10.48550/arXiv.1706.03762)
 
-[[youtube] 혁펜하임 | AI & 딥러닝 강의](https://www.youtube.com/watch?v=8E6-emm_QVg)
+[youtube 혁펜하임 | AI & 딥러닝 강의](https://www.youtube.com/watch?v=8E6-emm_QVg)
 
