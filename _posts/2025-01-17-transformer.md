@@ -16,15 +16,16 @@ categories:
 
 2017년 Transformer가 등장한 이후 많은 모델들이 Transformer를 사용하고 내가 사용한 대부분의 모델이 Transformer 기반으로 이루어져있다는 사실을 잘 알면서도 대충만 알고 있었다. 기초의 중요성을 느끼고 차근차근 뜯어본다. <br>  
 
-
+***
 
 ### Transformer
 
 Attention is all you need 논문과 Transformer 관련 자료를 공부하고나니 Transformer를 한 문장으로
 
- **"각 예측 시점에서 어떤 단어에 집중할지 찾는다"**
+ > **"각 예측 시점에서 어떤 단어에 집중할지 찾는다"**
 
 라고 요약할 수 있었다.<br>  
+
 
 
 기존(RNN)에는 어느 시점이던 마지막 단어 임베딩만 집중했으나, 뒤쪽 단어 정보에 비해 앞쪽 단어 정보는 적게 담겨져 있는 상태였고 이는 성능의 하락을 불러왔다.
@@ -40,9 +41,11 @@ Attention is all you need 논문과 Transformer 관련 자료를 공부하고나
 student 라는 값을 가져올 때 "학생" 이라는 단어 임베딩이 가장 큰 의미를 부여할 것이라는 것을 알 수 있다.<br>  
 
 
+
 Decoder의 단어 임베딩이 입력된 Encoder의 단어 임베딩을 모두 살피고 중요도에 따라 가중치를 가해 Context vector를 찾는다. 이것이 기존 방식에 **Attention**이라는 개념을 더한 것이다.
 
-이처럼 마지막 단어 임베딩에만 집중하지 않게끔 Decoder 에서 입력된 단어 임베딩을 모두 살피는 것을 **Attention** 이라고 한다.<br>  
+이처럼 마지막 단어 임베딩에만 집중하지 않게끔 Decoder 에서 입력된 단어 임베딩을 모두 살피는 것을 **Attention** 이라고 한다.<br>   
+
 
 
 
@@ -67,9 +70,11 @@ Decoder의 단어 임베딩이 입력된 Encoder의 단어 임베딩을 모두 �
 
 <br>  
 
+***
+
 지금까지 Transformer의 대략적인 개념을 살펴보았다.
 
-이제 논문을 통해 자세한 구조를 알아보겠다.<br>  
+이제 논문을 통해 자세한 구조를 알아보겠다.<br/>  
 
 
 
@@ -79,7 +84,7 @@ RNN, LSTM, GRU 와 같은 Sequential한 model이 대세를 이루어 왔다. rec
 
 Attention은 입력, 출력 시퀀스 간의 거리에 의존하지 않게 한다. 하지만 이런 attenstion machanism은 아직 recurrent한 신경망과의 결합으로 사용된다.
 
-이 논문에서는 recurrent한 구조를 배제하고 온전히 attention mechanism을 사용하여 Transformer를 제안한다. <br>  
+이 논문에서는 recurrent한 구조를 배제하고 온전히 attention mechanism을 사용하여 Transformer를 제안한다. <br/>  
 
 
 ### 2 Background
@@ -88,7 +93,7 @@ Sequential한 계산을 줄이려는 CNN 기반의 Extended Neural GPU, ByteNet,
 
 self-attention은 단일 시퀀스 내의 다른 position들을 연결하여 해당 시퀀스를 표현하는 것이다.
 
-Transfomer는 RNN과 convolution 없이 self-attention만으로 이루어진 첫 모델이다.<br>  
+Transfomer는 RNN과 convolution 없이 self-attention만으로 이루어진 첫 모델이다.<br/>  
 
 
 
@@ -112,7 +117,7 @@ Decoder도 6개의 동일한 layer로 이루어져 있지만 Encoder에서의 �
 
 Decoder에서는 특정 position 이후의 position에서는 attention 하지 못하게 하기 위하여 masking을 설정한다. 이는 예측하려는 값을 미리 attention하여 제대로된 학습을 못하지 않도록 방지하는 방법이다. 그림 속 Decoder layer의 맨 아래 하위 layer의 이름은 Masked Multi-head Attention임을 볼 수 있다.
 
-<br>  
+<br/>  
 
 
 ### 3.2 Attention
@@ -127,7 +132,7 @@ $$
 $$
 이 방법은 dot-product attention에서 scale을 적용한 것이다.
 
-attention은 주로 additive attention, dot-product attention을 사용하는데 dk값의 크기가 크면 additive attention이 더 좋은 성능을 보인다. dk값이 클수록 dot-product값이 커져 softmax 함수가 매우 작은 gradient를 가지는 지역으로 밀려나기 때문(?)이라고 추측한다고 한다. 이를 해결하기 위해 위에서와 같이 scale 작업을 더해주었다. <br>  
+attention은 주로 additive attention, dot-product attention을 사용하는데 dk값의 크기가 크면 additive attention이 더 좋은 성능을 보인다. dk값이 클수록 dot-product값이 커져 softmax 함수가 매우 작은 gradient를 가지는 지역으로 밀려나기 때문(?)이라고 추측한다고 한다. 이를 해결하기 위해 위에서와 같이 scale 작업을 더해주었다. <br/>  
 
 
 #### 3.2.2 Multi-Head Attention
@@ -186,7 +191,7 @@ $$
 
 -  self-attention layers  in decoder
 
-  decoder 내부에서 일어나는 attention으로 위와 동일하지만 마스킹이라는 개념이 추가된다. decoder는 출력 단어 시퀀스를 생성하는 역할이기 때문에 아직 출력되지 않은 미래의 값(정답)을 미리 attention 하는 것은 학습을 방해하게 된다. 따라서 미래의 단어에 해당하는 부분을 -inf로 마스킹하여 계산하게 된다. -inf로 마스킹하는 이유는 여러 연산이 끝난 후 마지막에 softmax 함수를 적용하게 되는데 이때 0값을 가지게 하기 위함이다.<br>  
+  decoder 내부에서 일어나는 attention으로 위와 동일하지만 마스킹이라는 개념이 추가된다. decoder는 출력 단어 시퀀스를 생성하는 역할이기 때문에 아직 출력되지 않은 미래의 값(정답)을 미리 attention 하는 것은 학습을 방해하게 된다. 따라서 미래의 단어에 해당하는 부분을 -inf로 마스킹하여 계산하게 된다. -inf로 마스킹하는 이유는 여러 연산이 끝난 후 마지막에 softmax 함수를 적용하게 되는데 이때 0값을 가지게 하기 위함이다.<br/>  
 
   
 
@@ -196,7 +201,7 @@ ecoder와 decoder의 하위 layer 중 Position-wise Feed-Forward Networks가 있
 $$
 FFN(x)=max(0,xW_{1}+b_{1})W_{2}+b_{2}
 $$
-<br>  
+<br/>  
 
 
 ### 3.4 Embeddings and Softmax
@@ -205,7 +210,7 @@ $$
 
 또한 linear transformation과 softmax 함수를 통해 decoder의 출력값을 다음 토큰 예측 확률로 변환한다.
 
-<br>  
+<br/>  
 
 
 ### 3.5 Positional Encoding
@@ -224,7 +229,7 @@ $$
 
  이 뜻에 대해서는 [https://blog.timodenk.com/linear-relationships-in-the-transformers-positional-encoding/](https://blog.timodenk.com/linear-relationships-in-the-transformers-positional-encoding/) 참고
 
-<br>  
+<br/>  
 
 
 
