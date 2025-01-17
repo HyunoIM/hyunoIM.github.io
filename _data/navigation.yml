@@ -14,8 +14,8 @@ sidebar-category:
   - title: "Machine Learning"
   - title: "Deep Learning"
     children:
-      - title: "paperreview"
-        url: "/paperreview"
+      - title: "paper"
+        url: "/paper"
       - title: "study"
         url: "/study"
       - title: "pytorch"
