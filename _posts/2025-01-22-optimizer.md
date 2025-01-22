@@ -19,7 +19,7 @@ categories:
 <img src="https://velog.velcdn.com/images/freesky/post/57e14895-6eb0-4c86-a9d1-0acdb0398406/image.png" alt="img" style="zoom:50%;" />
 
 
-<br>
+<br>  
 
 
 gradient descent(경사 하강법)과 같은 optimizer는 일반적으로 손실 함수의 gradient를 사용한다. gradient는 다변수 함수의 도함수(derivative)로, 특정 지점에서 함수 출력값이 변화하는 정도와 방향을 설명한다. 따라서 손실 함수가 모든 지점에서 gradient를 가질 수 있도록, 즉 미분 가능하도록 설계되는 것이 중요하다.
@@ -33,7 +33,13 @@ gradient descent(경사 하강법)과 같은 optimizer는 일반적으로 손실
 역전파에 대한 자세한 설명은 [[cs231n] 4. Introduction to Neural Networks](https://jdvvd.github.io/cs231n/)에 정리해두었다.
 
 
+![img](https://velog.velcdn.com/images/freesky/post/607dea70-976d-4dfb-b875-cd75ea348aa8/image.gif)
+
+
+<br>  
+
 
 **Reference**
 
 [IBM/think/topics(https://www.ibm.com/think/topics/loss-function)](https://www.ibm.com/think/topics/loss-function)
+[https://www.slideshare.net/slideshow/ss-79607172/79607172#49](https://www.slideshare.net/slideshow/ss-79607172/79607172#49)
