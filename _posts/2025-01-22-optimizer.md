@@ -17,7 +17,7 @@ categories:
 ***
 
 <img src="https://velog.velcdn.com/images/freesky/post/57e14895-6eb0-4c86-a9d1-0acdb0398406/image.png" alt="img" style="zoom:50%;" />
-
+[https://www.slideshare.net/slideshow/ss-79607172/79607172#49](https://www.slideshare.net/slideshow/ss-79607172/79607172#49)
 
 <br>  
 
