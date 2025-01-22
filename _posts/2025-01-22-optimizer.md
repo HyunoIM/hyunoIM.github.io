@@ -42,4 +42,5 @@ gradient descent(경사 하강법)과 같은 optimizer는 일반적으로 손실
 **Reference**
 
 [IBM/think/topics(https://www.ibm.com/think/topics/loss-function)](https://www.ibm.com/think/topics/loss-function)
+
 [https://www.slideshare.net/slideshow/ss-79607172/79607172#49](https://www.slideshare.net/slideshow/ss-79607172/79607172#49)
