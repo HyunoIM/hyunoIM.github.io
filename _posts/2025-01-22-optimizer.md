@@ -30,7 +30,7 @@ gradient descent(경사 하강법)과 같은 optimizer는 일반적으로 손실
 
 출력 층에서 입력 층까지 네트워크를 역방향으로 통과하며, chain rule을 사용하여 네트워크의 각 weight와 bias가 전체 손실에 어떻게 기여했는지를 계산한다.
 
-역전파에 대한 자세한 설명은 [[cs231n] 4. Introduction to Neural Networks](https://jdvvd.github.io/cs231n/)에 정리해두었다.
+역전파에 대한 자세한 설명은 [[cs231n] 4. Introduction to Neural Networks](https://jdvvd.github.io/cs231n/4)에 정리해두었다.
 
 
 ![img](https://velog.velcdn.com/images/freesky/post/607dea70-976d-4dfb-b875-cd75ea348aa8/image.gif)
