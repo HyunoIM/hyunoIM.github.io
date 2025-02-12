@@ -10,17 +10,6 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-  - title: "Machine Learning"
-  - title: "Deep Learning"
-    children:
-      - title: "paper"
-        url: "/paper"
-      - title: "study"
-        url: "/study"
-      - title: "pytorch"
-        url: "/pytorch"
-      - title: "cs231n"
-        url:  "/cs231n"
 sidebar-category:
   - title: "Machine Learning"
   - title: "Deep Learning"
