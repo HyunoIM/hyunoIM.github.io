@@ -298,6 +298,5 @@ defaults:
       share: true
       show_date: true
       related: true
-      sidebar:
-        - "sidebar"   # 추가한 부분
+      sidebar: "sidebar"   # 추가한 부분
       nav: "sidebar-category" # 추가한 부분
