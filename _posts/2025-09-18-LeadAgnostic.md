@@ -89,14 +89,17 @@ Global loss는 model framework 그림을 통해 보면 알 수 있듯 local repr
 ### Experiment 1.
 
 <img width="528" height="397" alt="image" src="https://github.com/user-attachments/assets/a6ee113f-d7d6-4539-92e6-19176af2ef3e" />  
+
 W2V+CMSC+RLM은 분류 작업의 DX Task 점수에서 상당한 개선을 보여줬다. 이는 local representation (Wav2Vec)과 global representation(CMSC)을 결합하고 Random lead masking(RLM)을 적용하는 것이 리드 수가 적더라도 심장 이상을 진단하는 데 매우 효과적임을 나타낸다.
 
 ### Experiment 2.
 <img width="612" height="356" alt="image" src="https://github.com/user-attachments/assets/2e219aca-0d59-4e8e-82fa-baf063ab0d65" />  
+
 Wav2Vec 2.0 (W2V)가 12-리드를 제외한 모든 리드 조합(6-리드, 3-리드, 2-리드 등)에서 가장 좋은 점수를 보이는데, 이는 classification이 ECG 신호의 local representations)에 집중하기 때문이라고 저자들은 말하고 있다.
 
 ### Experiment 3.
 <img width="656" height="311" alt="image" src="https://github.com/user-attachments/assets/4751e8f9-6107-4431-9634-9fbfa197b7a1" />  
+
  RLM을 W2V에 적용하면 classification 성능은 향상되지만, identification 성능은 일부 리드 조합에서 감소하는 모습을 보인다. RLM이 W2V의 local represention을 포착하는 능력을 강화하기 때문이라고 추측하고 있다.
 
 ---
